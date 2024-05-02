@@ -7,7 +7,7 @@
   <form action="/updateTask" method="POST">
     @method('PUT')
     @csrf
-    <input type="hidden" name="id" value="{{ $task->task_id }}">
+    <input type="hidden" name="id" value="{{ $task->id }}">
     <label class="form-control w-full max-w-lg mx-auto">
       <div class="label">
         <span class="label-text text-emerald-600">Edit Task</span>
